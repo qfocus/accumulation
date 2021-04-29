@@ -1,0 +1,5 @@
+#copy all dependencies:
+mvn dependency:copy-dependencies
+
+#list all dependencies as tree
+mvn dependency:tree >d:/tree.txt
